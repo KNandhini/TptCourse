@@ -1,0 +1,326 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Api\\TptCourse.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Api\\TptCourse.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Api\\TptCourse.Api.csproj",
+        "projectName": "TptCourse.Api",
+        "projectPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Api\\TptCourse.Api.csproj",
+        "packagesPath": "C:\\Users\\loret\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\loret\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Domain\\TptCourse.Domain.csproj": {
+                "projectPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Domain\\TptCourse.Domain.csproj"
+              },
+              "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Infrastructure\\TptCourse.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Infrastructure\\TptCourse.Infrastructure.csproj"
+              },
+              "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourseApplication\\TptCourse.Application.csproj": {
+                "projectPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourseApplication\\TptCourse.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Domain\\TptCourse.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Domain\\TptCourse.Domain.csproj",
+        "projectName": "TptCourse.Domain",
+        "projectPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Domain\\TptCourse.Domain.csproj",
+        "packagesPath": "C:\\Users\\loret\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\loret\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Infrastructure\\TptCourse.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Infrastructure\\TptCourse.Infrastructure.csproj",
+        "projectName": "TptCourse.Infrastructure",
+        "projectPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Infrastructure\\TptCourse.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\loret\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\loret\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Domain\\TptCourse.Domain.csproj": {
+                "projectPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Domain\\TptCourse.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourseApplication\\TptCourse.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourseApplication\\TptCourse.Application.csproj",
+        "projectName": "TptCourse.Application",
+        "projectPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourseApplication\\TptCourse.Application.csproj",
+        "packagesPath": "C:\\Users\\loret\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourseApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\loret\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Domain\\TptCourse.Domain.csproj": {
+                "projectPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Domain\\TptCourse.Domain.csproj"
+              },
+              "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Infrastructure\\TptCourse.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\loret\\source\\repos\\tptcoarseapinew\\TPTCOURSEAPI\\TptCourse.Infrastructure\\TptCourse.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

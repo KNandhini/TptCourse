@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Remove missing Application reference or fix path if project exists -->
+		<!--<ProjectReference Include="..\TptCourse.Application\TptCourse.Application.csproj" />-->
+		<ProjectReference Include="..\TptCourse.Domain\TptCourse.Domain.csproj" />
+		<ProjectReference Include="..\TptCourse.Infrastructure\TptCourse.Infrastructure.csproj" />
+		<ProjectReference Include="..\TptCourseApplication\TptCourse.Application.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+		<!-- Use latest existing AutoMapper version -->
+		<PackageReference Include="Dapper" Version="2.1.66" />
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+
+</Project>
