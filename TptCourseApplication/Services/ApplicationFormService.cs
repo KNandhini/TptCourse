@@ -31,10 +31,10 @@ namespace TptCourse.Application.Services
         }
 
         /// <inheritdoc/>
-        public async Task<IEnumerable<ApplicationFormDto>> GetApplicationFormDetails(int? id)
+        public async Task<List<ApplicationFormDto>> GetApplicationFormDetails(int? id)
         {
             var applicationForms = await _applicationFormRepository.GetApplicationFormDetails(id);
-            return _mapper.Map<IEnumerable<ApplicationFormDto>>(applicationForms);
+            return _mapper.Map<List<ApplicationFormDto>>(applicationForms);
         }
 
         /// <inheritdoc/>

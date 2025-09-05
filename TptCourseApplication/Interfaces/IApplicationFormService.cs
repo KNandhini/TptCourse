@@ -12,7 +12,7 @@ namespace TptCourse.Application.Interfaces
         /// <summary>
         /// Gets application form details by ID (or all if null).
         /// </summary>
-        Task<IEnumerable<ApplicationFormDto>> GetApplicationFormDetails(int? id);
+        Task<List<ApplicationFormDto>> GetApplicationFormDetails(int? id);
 
         /// <summary>
         /// Inserts a new application form.

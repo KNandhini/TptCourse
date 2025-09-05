@@ -4,6 +4,7 @@ using System.Text.Json;
 using TptCourse.Domain.Entities;
 using TptCourse.Infrastructure.Interfaces;
 using TptCourse.Infrastructure.DatabaseConnection;
+using Dapper;
 
 namespace TptCourse.Infrastructure.Repositories
 {
@@ -17,29 +18,31 @@ namespace TptCourse.Infrastructure.Repositories
         }
 
         /// <inheritdoc/>
-        public async Task<IEnumerable<Application>> GetApplicationFormDetails(int? id)
+        public async Task<List<Application>> GetApplicationFormDetails(int? id)
         {
-            var list = new List<Application>();
+            //var list = new List<Application>();
 
-            using var conn = (SqlConnection)_db.Connection;
-            using var cmd = new SqlCommand(
-                id.HasValue ? "sp_GetApplicationFormById" : "sp_GetAllApplicationForms",
-                conn
-            )
-            { CommandType = CommandType.StoredProcedure };
+            //using var conn = (SqlConnection)_db.Connection;
+            //using var cmd = new SqlCommand(
+            //    id.HasValue ? "sp_GetAllApplicationForms" : "sp_GetAllApplicationForms",
+            //    conn
+            //)
+            //{ CommandType = CommandType.StoredProcedure };
 
-            if (id.HasValue)
-                cmd.Parameters.AddWithValue("@ApplicationID", id.Value);
+            //if (id.HasValue)
+            //    cmd.Parameters.AddWithValue("@ApplicationID", id.Value);
 
-            await conn.OpenAsync();
-            using var reader = await cmd.ExecuteReaderAsync();
+            //await conn.OpenAsync();
+            //using var reader = await cmd.ExecuteReaderAsync();
 
-            while (await reader.ReadAsync())
-            {
-                list.Add(MapApplication(reader));
-            }
+            //while (await reader.ReadAsync())
+            //{
+            //    list.Add(MapApplication(reader));
+            //}
 
-            return list;
+            //return list;
+            var spName = "sp_GetAllApplicationForms";
+            return await Task.Factory.StartNew(() => _db.Connection.Query<Application>(spName, new { Id = id }, commandType: CommandType.StoredProcedure).ToList());
         }
 
         /// <inheritdoc/>

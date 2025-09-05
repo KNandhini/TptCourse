@@ -9,7 +9,7 @@ namespace TptCourse.Infrastructure.Interfaces
     /// </summary>
     public interface IApplicationFormRepository
     {
-        Task<IEnumerable<Application>> GetApplicationFormDetails(int? id);
+        Task<List<Application>> GetApplicationFormDetails(int? id);
         Task<Application> InsertApplicationForm(Application applicationForm);
         Task UpdateApplicationForm(Application applicationForm);
     }

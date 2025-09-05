@@ -18,6 +18,7 @@ namespace TptCourse.Application.Dtos
 
         // ✅ Only list
         public List<EducationDto> ListEducationDetails { get; set; } = new List<EducationDto>();
+        public string EducationDetails { get; set; } = string.Empty;
 
         public string ModeOfAdmission { get; set; } = string.Empty;
         public string CandidateStatus { get; set; } = string.Empty;
