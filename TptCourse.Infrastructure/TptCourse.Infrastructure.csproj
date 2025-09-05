@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Reference Domain only -->
+		<ProjectReference Include="..\TptCourse.Domain\TptCourse.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Packages for Dapper + SqlConnection -->
+		<PackageReference Include="Dapper" Version="2.0.123" />
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+		<!-- Optional: EF Core if still needed -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+	</ItemGroup>
+
+</Project>

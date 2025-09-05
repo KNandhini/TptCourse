@@ -1,0 +1,11 @@
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\bin\Debug\net8.0\TptCourse.Domain.deps.json
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\bin\Debug\net8.0\TptCourse.Domain.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\bin\Debug\net8.0\TptCourse.Domain.pdb
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\obj\Debug\net8.0\TptCourse.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\obj\Debug\net8.0\TptCourse.Domain.AssemblyInfoInputs.cache
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\obj\Debug\net8.0\TptCourse.Domain.AssemblyInfo.cs
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\obj\Debug\net8.0\TptCourse.Domain.csproj.CoreCompileInputs.cache
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\obj\Debug\net8.0\TptCourse.Domain.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\obj\Debug\net8.0\refint\TptCourse.Domain.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\obj\Debug\net8.0\TptCourse.Domain.pdb
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Domain\obj\Debug\net8.0\ref\TptCourse.Domain.dll

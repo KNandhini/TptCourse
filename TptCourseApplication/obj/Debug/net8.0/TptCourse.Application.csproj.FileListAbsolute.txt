@@ -1,0 +1,17 @@
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\bin\Debug\net8.0\TptCourse.Application.deps.json
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\bin\Debug\net8.0\TptCourse.Application.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\bin\Debug\net8.0\TptCourse.Application.pdb
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\bin\Debug\net8.0\TptCourse.Domain.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\bin\Debug\net8.0\TptCourse.Infrastructure.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\bin\Debug\net8.0\TptCourse.Domain.pdb
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\bin\Debug\net8.0\TptCourse.Infrastructure.pdb
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\obj\Debug\net8.0\TptCourse.Application.csproj.AssemblyReference.cache
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\obj\Debug\net8.0\TptCourse.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\obj\Debug\net8.0\TptCourse.Application.AssemblyInfoInputs.cache
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\obj\Debug\net8.0\TptCourse.Application.AssemblyInfo.cs
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\obj\Debug\net8.0\TptCourse.Application.csproj.CoreCompileInputs.cache
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\obj\Debug\net8.0\TptCours.07E663A4.Up2Date
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\obj\Debug\net8.0\TptCourse.Application.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\obj\Debug\net8.0\refint\TptCourse.Application.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\obj\Debug\net8.0\TptCourse.Application.pdb
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourseApplication\obj\Debug\net8.0\ref\TptCourse.Application.dll

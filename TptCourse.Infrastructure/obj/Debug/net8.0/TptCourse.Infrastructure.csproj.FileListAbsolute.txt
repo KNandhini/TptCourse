@@ -1,0 +1,15 @@
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\bin\Debug\net8.0\TptCourse.Infrastructure.deps.json
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\bin\Debug\net8.0\TptCourse.Infrastructure.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\bin\Debug\net8.0\TptCourse.Infrastructure.pdb
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\bin\Debug\net8.0\TptCourse.Domain.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\bin\Debug\net8.0\TptCourse.Domain.pdb
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\obj\Debug\net8.0\TptCourse.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\obj\Debug\net8.0\TptCourse.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\obj\Debug\net8.0\TptCourse.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\obj\Debug\net8.0\TptCourse.Infrastructure.AssemblyInfo.cs
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\obj\Debug\net8.0\TptCourse.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\obj\Debug\net8.0\TptCours.1BF388AD.Up2Date
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\obj\Debug\net8.0\TptCourse.Infrastructure.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\obj\Debug\net8.0\refint\TptCourse.Infrastructure.dll
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\obj\Debug\net8.0\TptCourse.Infrastructure.pdb
+C:\Users\loret\source\repos\CourseApi\TPTCOURSEAPI\TptCourse.Infrastructure\obj\Debug\net8.0\ref\TptCourse.Infrastructure.dll
